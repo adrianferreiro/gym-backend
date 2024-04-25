@@ -1,0 +1,441 @@
+ERROR - 2024-04-21 00:31:31 --> Error connecting to the database: mysqli_sql_exception: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión in C:\xampp\htdocs\gym-backend\system\Database\MySQLi\Connection.php:186
+Stack trace:
+#0 C:\xampp\htdocs\gym-backend\system\Database\MySQLi\Connection.php(186): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'gimnasio', 33066, '', 0)
+#1 C:\xampp\htdocs\gym-backend\system\Database\BaseConnection.php(420): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\gym-backend\system\Database\BaseConnection.php(603): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\gym-backend\system\Database\BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\gym-backend\system\Model.php(274): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\gym-backend\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\gym-backend\app\Controllers\C_Users.php(15): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\gym-backend\system\CodeIgniter.php(933): App\Controllers\C_Users->index()
+#8 C:\xampp\htdocs\gym-backend\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_Users))
+#9 C:\xampp\htdocs\gym-backend\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\gym-backend\system\Boot.php(312): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\gym-backend\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\xampp\htdocs\gym-backend\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión in C:\xampp\htdocs\gym-backend\system\Database\MySQLi\Connection.php:231
+Stack trace:
+#0 C:\xampp\htdocs\gym-backend\system\Database\BaseConnection.php(420): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\gym-backend\system\Database\BaseConnection.php(603): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\gym-backend\system\Database\BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\gym-backend\system\Model.php(274): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\gym-backend\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\xampp\htdocs\gym-backend\app\Controllers\C_Users.php(15): CodeIgniter\BaseModel->findAll()
+#6 C:\xampp\htdocs\gym-backend\system\CodeIgniter.php(933): App\Controllers\C_Users->index()
+#7 C:\xampp\htdocs\gym-backend\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_Users))
+#8 C:\xampp\htdocs\gym-backend\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\gym-backend\system\Boot.php(312): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\gym-backend\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\xampp\htdocs\gym-backend\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+CRITICAL - 2024-04-21 00:31:31 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+[Method: GET, Route: usuarios]
+in SYSTEMPATH\Database\BaseConnection.php on line 456.
+ 1 SYSTEMPATH\Database\BaseConnection.php(603): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `usuarios`', [], false)
+ 3 SYSTEMPATH\Model.php(274): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\C_Users.php(15): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\C_Users->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_Users))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2024-04-21 00:43:01 --> Error connecting to the database: mysqli_sql_exception: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión in C:\xampp\htdocs\gym-backend\system\Database\MySQLi\Connection.php:186
+Stack trace:
+#0 C:\xampp\htdocs\gym-backend\system\Database\MySQLi\Connection.php(186): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'gimnasio', 33066, '', 0)
+#1 C:\xampp\htdocs\gym-backend\system\Database\BaseConnection.php(420): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\gym-backend\system\Database\BaseConnection.php(603): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\gym-backend\system\Database\BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\gym-backend\system\Model.php(274): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\gym-backend\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\gym-backend\app\Controllers\C_Users.php(15): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\gym-backend\system\CodeIgniter.php(933): App\Controllers\C_Users->index()
+#8 C:\xampp\htdocs\gym-backend\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_Users))
+#9 C:\xampp\htdocs\gym-backend\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\gym-backend\system\Boot.php(312): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\gym-backend\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\xampp\htdocs\gym-backend\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión in C:\xampp\htdocs\gym-backend\system\Database\MySQLi\Connection.php:231
+Stack trace:
+#0 C:\xampp\htdocs\gym-backend\system\Database\BaseConnection.php(420): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\gym-backend\system\Database\BaseConnection.php(603): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\gym-backend\system\Database\BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\gym-backend\system\Model.php(274): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\gym-backend\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\xampp\htdocs\gym-backend\app\Controllers\C_Users.php(15): CodeIgniter\BaseModel->findAll()
+#6 C:\xampp\htdocs\gym-backend\system\CodeIgniter.php(933): App\Controllers\C_Users->index()
+#7 C:\xampp\htdocs\gym-backend\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_Users))
+#8 C:\xampp\htdocs\gym-backend\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\gym-backend\system\Boot.php(312): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\gym-backend\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\xampp\htdocs\gym-backend\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+CRITICAL - 2024-04-21 00:43:01 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+[Method: GET, Route: usuarios]
+in SYSTEMPATH\Database\BaseConnection.php on line 456.
+ 1 SYSTEMPATH\Database\BaseConnection.php(603): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `usuarios`', [], false)
+ 3 SYSTEMPATH\Model.php(274): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\C_Users.php(15): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\C_Users->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_Users))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2024-04-21 00:43:28 --> Error connecting to the database: mysqli_sql_exception: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión in C:\xampp\htdocs\gym-backend\system\Database\MySQLi\Connection.php:186
+Stack trace:
+#0 C:\xampp\htdocs\gym-backend\system\Database\MySQLi\Connection.php(186): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'gimnasio', 33066, '', 0)
+#1 C:\xampp\htdocs\gym-backend\system\Database\BaseConnection.php(420): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\gym-backend\system\Database\BaseConnection.php(603): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\gym-backend\system\Database\BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\gym-backend\system\Model.php(274): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\gym-backend\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\gym-backend\app\Controllers\C_Users.php(15): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\gym-backend\system\CodeIgniter.php(933): App\Controllers\C_Users->index()
+#8 C:\xampp\htdocs\gym-backend\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_Users))
+#9 C:\xampp\htdocs\gym-backend\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\gym-backend\system\Boot.php(312): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\gym-backend\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\xampp\htdocs\gym-backend\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión in C:\xampp\htdocs\gym-backend\system\Database\MySQLi\Connection.php:231
+Stack trace:
+#0 C:\xampp\htdocs\gym-backend\system\Database\BaseConnection.php(420): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\gym-backend\system\Database\BaseConnection.php(603): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\gym-backend\system\Database\BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\gym-backend\system\Model.php(274): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\gym-backend\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\xampp\htdocs\gym-backend\app\Controllers\C_Users.php(15): CodeIgniter\BaseModel->findAll()
+#6 C:\xampp\htdocs\gym-backend\system\CodeIgniter.php(933): App\Controllers\C_Users->index()
+#7 C:\xampp\htdocs\gym-backend\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_Users))
+#8 C:\xampp\htdocs\gym-backend\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\gym-backend\system\Boot.php(312): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\gym-backend\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\xampp\htdocs\gym-backend\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+CRITICAL - 2024-04-21 00:43:28 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+[Method: GET, Route: usuarios]
+in SYSTEMPATH\Database\BaseConnection.php on line 456.
+ 1 SYSTEMPATH\Database\BaseConnection.php(603): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `usuarios`', [], false)
+ 3 SYSTEMPATH\Model.php(274): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\C_Users.php(15): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\C_Users->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_Users))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-04-21 00:43:30 --> Error: Class "App\Controllers\ProductModel" not found
+[Method: GET, Route: usuarios/index.hp]
+in APPPATH\Controllers\C_Users.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\C_Users->show('index.hp')
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_Users))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-04-21 00:43:33 --> Error: Class "App\Controllers\ProductModel" not found
+[Method: GET, Route: usuarios/index.php]
+in APPPATH\Controllers\C_Users.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\C_Users->show('index.php')
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_Users))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-04-21 00:49:29 --> ParseError: syntax error, unexpected token "public", expecting end of file
+[Method: GET, Route: users]
+in APPPATH\Config\Routes.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(823): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-04-21 00:52:29 --> ParseError: syntax error, unexpected token "public", expecting end of file
+[Method: GET, Route: users]
+in APPPATH\Config\Routes.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(823): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-04-21 00:52:30 --> ParseError: syntax error, unexpected token "public", expecting end of file
+[Method: GET, Route: users]
+in APPPATH\Config\Routes.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(823): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-04-21 00:52:31 --> ParseError: syntax error, unexpected token "public", expecting end of file
+[Method: GET, Route: users]
+in APPPATH\Config\Routes.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(823): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-04-21 00:53:56 --> ParseError: syntax error, unexpected token "public", expecting end of file
+[Method: GET, Route: users]
+in APPPATH\Config\Routes.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(823): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-04-21 00:53:59 --> ParseError: syntax error, unexpected token "public", expecting end of file
+[Method: GET, Route: users]
+in APPPATH\Config\Routes.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(823): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-04-21 00:54:06 --> ParseError: syntax error, unexpected token "public", expecting end of file
+[Method: GET, Route: users/index.php]
+in APPPATH\Config\Routes.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(823): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-04-21 00:54:09 --> ParseError: syntax error, unexpected token "public", expecting end of file
+[Method: GET, Route: users/index.]
+in APPPATH\Config\Routes.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(823): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-04-21 00:54:12 --> ParseError: syntax error, unexpected token "public", expecting end of file
+[Method: GET, Route: users/index]
+in APPPATH\Config\Routes.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(823): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-04-21 00:54:15 --> ParseError: syntax error, unexpected token "public", expecting end of file
+[Method: GET, Route: users]
+in APPPATH\Config\Routes.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(823): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-04-21 00:54:46 --> ParseError: syntax error, unexpected token "public", expecting end of file
+[Method: GET, Route: users]
+in APPPATH\Config\Routes.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(823): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-04-21 00:56:20 --> ParseError: syntax error, unexpected token "public", expecting end of file
+[Method: GET, Route: users]
+in APPPATH\Config\Routes.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(823): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-04-21 00:56:21 --> ParseError: syntax error, unexpected token "public", expecting end of file
+[Method: GET, Route: users]
+in APPPATH\Config\Routes.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(823): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-04-21 00:56:21 --> ParseError: syntax error, unexpected token "public", expecting end of file
+[Method: GET, Route: users]
+in APPPATH\Config\Routes.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(823): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-04-21 00:56:30 --> ParseError: syntax error, unexpected token "public", expecting end of file
+[Method: GET, Route: users]
+in APPPATH\Config\Routes.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(823): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-04-21 00:59:27 --> ParseError: syntax error, unexpected token "public", expecting end of file
+[Method: GET, Route: users]
+in APPPATH\Config\Routes.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(823): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-04-21 01:00:47 --> ParseError: syntax error, unexpected token "public", expecting end of file
+[Method: GET, Route: users]
+in APPPATH\Config\Routes.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(823): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-04-21 01:05:02 --> ParseError: syntax error, unexpected token "public", expecting end of file
+[Method: GET, Route: users]
+in APPPATH\Config\Routes.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(823): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-04-21 01:05:03 --> ParseError: syntax error, unexpected token "public", expecting end of file
+[Method: GET, Route: users]
+in APPPATH\Config\Routes.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(823): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-04-21 01:05:04 --> ParseError: syntax error, unexpected token "public", expecting end of file
+[Method: GET, Route: users]
+in APPPATH\Config\Routes.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(823): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-04-21 01:05:04 --> ParseError: syntax error, unexpected token "public", expecting end of file
+[Method: GET, Route: users]
+in APPPATH\Config\Routes.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(823): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-04-21 01:05:07 --> ParseError: syntax error, unexpected token "public", expecting end of file
+[Method: GET, Route: /]
+in APPPATH\Config\Routes.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(823): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-04-21 01:05:16 --> ParseError: syntax error, unexpected token "public", expecting end of file
+[Method: GET, Route: users]
+in APPPATH\Config\Routes.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(823): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-04-21 01:05:21 --> ParseError: syntax error, unexpected token "public", expecting end of file
+[Method: GET, Route: C_Users]
+in APPPATH\Config\Routes.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(823): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-04-21 01:05:34 --> ParseError: syntax error, unexpected token "public", expecting end of file
+[Method: GET, Route: C_Users]
+in APPPATH\Config\Routes.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(823): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-04-21 01:05:35 --> ParseError: syntax error, unexpected token "public", expecting end of file
+[Method: GET, Route: C_Users]
+in APPPATH\Config\Routes.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(823): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-04-21 01:05:36 --> ParseError: syntax error, unexpected token "public", expecting end of file
+[Method: GET, Route: C_Users]
+in APPPATH\Config\Routes.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(823): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-04-21 01:06:51 --> ParseError: syntax error, unexpected token "public", expecting end of file
+[Method: GET, Route: C_Users]
+in APPPATH\Config\Routes.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(823): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-04-21 01:06:53 --> ParseError: syntax error, unexpected token "public", expecting end of file
+[Method: GET, Route: C_Users]
+in APPPATH\Config\Routes.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(823): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-04-21 01:06:55 --> ParseError: syntax error, unexpected token "public", expecting end of file
+[Method: GET, Route: C_Users]
+in APPPATH\Config\Routes.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(823): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-04-21 01:06:57 --> ParseError: syntax error, unexpected token "public", expecting end of file
+[Method: GET, Route: C_Users]
+in APPPATH\Config\Routes.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(823): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))

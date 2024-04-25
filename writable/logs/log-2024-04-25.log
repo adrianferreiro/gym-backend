@@ -1,0 +1,298 @@
+CRITICAL - 2024-04-25 00:40:09 --> ParseError: syntax error, unexpected token "public", expecting end of file
+[Method: GET, Route: tipocontacto]
+in APPPATH\Models\M_TipoContacto.php on line 13.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\gym-backend\\app\\Models\\M_TipoContacto.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\M_TipoContacto')
+ 3 APPPATH\Controllers\C_TipoContacto.php(15): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\M_TipoContacto')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\C_TipoContacto->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_TipoContacto))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-04-25 00:40:13 --> ParseError: syntax error, unexpected token "public", expecting end of file
+[Method: GET, Route: tipocontacto]
+in APPPATH\Models\M_TipoContacto.php on line 13.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\gym-backend\\app\\Models\\M_TipoContacto.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\M_TipoContacto')
+ 3 APPPATH\Controllers\C_TipoContacto.php(15): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\M_TipoContacto')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\C_TipoContacto->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_TipoContacto))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-04-25 00:41:40 --> ParseError: syntax error, unexpected token "public", expecting end of file
+[Method: GET, Route: tipocontacto]
+in APPPATH\Models\M_TipoContacto.php on line 13.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\gym-backend\\app\\Models\\M_TipoContacto.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\M_TipoContacto')
+ 3 APPPATH\Controllers\C_TipoContacto.php(15): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\M_TipoContacto')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\C_TipoContacto->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_TipoContacto))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-04-25 00:43:47 --> ParseError: syntax error, unexpected token "public", expecting end of file
+[Method: GET, Route: tipocontacto]
+in APPPATH\Models\M_TipoContacto.php on line 13.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\gym-backend\\app\\Models\\M_TipoContacto.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\M_TipoContacto')
+ 3 APPPATH\Controllers\C_TipoContacto.php(15): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\M_TipoContacto')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\C_TipoContacto->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_TipoContacto))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2024-04-25 00:49:56 --> mysqli_sql_exception: Column 'descripcion' cannot be null in C:\xampp\htdocs\gym-backend\system\Database\MySQLi\Connection.php:308
+Stack trace:
+#0 C:\xampp\htdocs\gym-backend\system\Database\MySQLi\Connection.php(308): mysqli->query('CALL Proc_Agreg...', 0)
+#1 C:\xampp\htdocs\gym-backend\system\Database\BaseConnection.php(721): CodeIgniter\Database\MySQLi\Connection->execute('CALL Proc_Agreg...')
+#2 C:\xampp\htdocs\gym-backend\system\Database\BaseConnection.php(635): CodeIgniter\Database\BaseConnection->simpleQuery('CALL Proc_Agreg...')
+#3 C:\xampp\htdocs\gym-backend\app\Models\M_TipoContacto.php(17): CodeIgniter\Database\BaseConnection->query('CALL Proc_Agreg...', Array)
+#4 C:\xampp\htdocs\gym-backend\app\Controllers\C_TipoContacto.php(37): App\Models\M_TipoContacto->AgregarTipoContacto(NULL)
+#5 C:\xampp\htdocs\gym-backend\system\CodeIgniter.php(933): App\Controllers\C_TipoContacto->create()
+#6 C:\xampp\htdocs\gym-backend\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_TipoContacto))
+#7 C:\xampp\htdocs\gym-backend\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\gym-backend\system\Boot.php(312): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\gym-backend\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 C:\xampp\htdocs\gym-backend\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 {main}
+CRITICAL - 2024-04-25 00:49:56 --> CodeIgniter\Database\Exceptions\DatabaseException: Column 'descripcion' cannot be null
+[Method: POST, Route: tipocontacto]
+in SYSTEMPATH\Database\BaseConnection.php on line 675.
+ 1 APPPATH\Models\M_TipoContacto.php(17): CodeIgniter\Database\BaseConnection->query('CALL Proc_AgregarTipoContacto(?)', [...])
+ 2 APPPATH\Controllers\C_TipoContacto.php(37): App\Models\M_TipoContacto->AgregarTipoContacto(null)
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\C_TipoContacto->create()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_TipoContacto))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-04-25 00:49:56 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Column 'descripcion' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 313.
+ 1 SYSTEMPATH\Database\BaseConnection.php(721): CodeIgniter\Database\MySQLi\Connection->execute('CALL Proc_AgregarTipoContacto(NULL)')
+ 2 SYSTEMPATH\Database\BaseConnection.php(635): CodeIgniter\Database\BaseConnection->simpleQuery('CALL Proc_AgregarTipoContacto(NULL)')
+ 3 APPPATH\Models\M_TipoContacto.php(17): CodeIgniter\Database\BaseConnection->query('CALL Proc_AgregarTipoContacto(?)', [...])
+ 4 APPPATH\Controllers\C_TipoContacto.php(37): App\Models\M_TipoContacto->AgregarTipoContacto(null)
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\C_TipoContacto->create()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_TipoContacto))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-04-25 00:49:56 --> [Caused by] mysqli_sql_exception: Column 'descripcion' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 308.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(308): mysqli->query('CALL Proc_AgregarTipoContacto(NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(721): CodeIgniter\Database\MySQLi\Connection->execute('CALL Proc_AgregarTipoContacto(NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(635): CodeIgniter\Database\BaseConnection->simpleQuery('CALL Proc_AgregarTipoContacto(NULL)')
+ 4 APPPATH\Models\M_TipoContacto.php(17): CodeIgniter\Database\BaseConnection->query('CALL Proc_AgregarTipoContacto(?)', [...])
+ 5 APPPATH\Controllers\C_TipoContacto.php(37): App\Models\M_TipoContacto->AgregarTipoContacto(null)
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\C_TipoContacto->create()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_TipoContacto))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2024-04-25 00:50:07 --> mysqli_sql_exception: Column 'descripcion' cannot be null in C:\xampp\htdocs\gym-backend\system\Database\MySQLi\Connection.php:308
+Stack trace:
+#0 C:\xampp\htdocs\gym-backend\system\Database\MySQLi\Connection.php(308): mysqli->query('CALL Proc_Agreg...', 0)
+#1 C:\xampp\htdocs\gym-backend\system\Database\BaseConnection.php(721): CodeIgniter\Database\MySQLi\Connection->execute('CALL Proc_Agreg...')
+#2 C:\xampp\htdocs\gym-backend\system\Database\BaseConnection.php(635): CodeIgniter\Database\BaseConnection->simpleQuery('CALL Proc_Agreg...')
+#3 C:\xampp\htdocs\gym-backend\app\Models\M_TipoContacto.php(17): CodeIgniter\Database\BaseConnection->query('CALL Proc_Agreg...', Array)
+#4 C:\xampp\htdocs\gym-backend\app\Controllers\C_TipoContacto.php(37): App\Models\M_TipoContacto->AgregarTipoContacto(NULL)
+#5 C:\xampp\htdocs\gym-backend\system\CodeIgniter.php(933): App\Controllers\C_TipoContacto->create()
+#6 C:\xampp\htdocs\gym-backend\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_TipoContacto))
+#7 C:\xampp\htdocs\gym-backend\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\gym-backend\system\Boot.php(312): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\gym-backend\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 C:\xampp\htdocs\gym-backend\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 {main}
+CRITICAL - 2024-04-25 00:50:07 --> CodeIgniter\Database\Exceptions\DatabaseException: Column 'descripcion' cannot be null
+[Method: POST, Route: tipocontacto]
+in SYSTEMPATH\Database\BaseConnection.php on line 675.
+ 1 APPPATH\Models\M_TipoContacto.php(17): CodeIgniter\Database\BaseConnection->query('CALL Proc_AgregarTipoContacto(?)', [...])
+ 2 APPPATH\Controllers\C_TipoContacto.php(37): App\Models\M_TipoContacto->AgregarTipoContacto(null)
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\C_TipoContacto->create()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_TipoContacto))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-04-25 00:50:07 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Column 'descripcion' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 313.
+ 1 SYSTEMPATH\Database\BaseConnection.php(721): CodeIgniter\Database\MySQLi\Connection->execute('CALL Proc_AgregarTipoContacto(NULL)')
+ 2 SYSTEMPATH\Database\BaseConnection.php(635): CodeIgniter\Database\BaseConnection->simpleQuery('CALL Proc_AgregarTipoContacto(NULL)')
+ 3 APPPATH\Models\M_TipoContacto.php(17): CodeIgniter\Database\BaseConnection->query('CALL Proc_AgregarTipoContacto(?)', [...])
+ 4 APPPATH\Controllers\C_TipoContacto.php(37): App\Models\M_TipoContacto->AgregarTipoContacto(null)
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\C_TipoContacto->create()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_TipoContacto))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-04-25 00:50:07 --> [Caused by] mysqli_sql_exception: Column 'descripcion' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 308.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(308): mysqli->query('CALL Proc_AgregarTipoContacto(NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(721): CodeIgniter\Database\MySQLi\Connection->execute('CALL Proc_AgregarTipoContacto(NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(635): CodeIgniter\Database\BaseConnection->simpleQuery('CALL Proc_AgregarTipoContacto(NULL)')
+ 4 APPPATH\Models\M_TipoContacto.php(17): CodeIgniter\Database\BaseConnection->query('CALL Proc_AgregarTipoContacto(?)', [...])
+ 5 APPPATH\Controllers\C_TipoContacto.php(37): App\Models\M_TipoContacto->AgregarTipoContacto(null)
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\C_TipoContacto->create()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_TipoContacto))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2024-04-25 00:51:06 --> mysqli_sql_exception: Column 'descripcion' cannot be null in C:\xampp\htdocs\gym-backend\system\Database\MySQLi\Connection.php:308
+Stack trace:
+#0 C:\xampp\htdocs\gym-backend\system\Database\MySQLi\Connection.php(308): mysqli->query('CALL Proc_Agreg...', 0)
+#1 C:\xampp\htdocs\gym-backend\system\Database\BaseConnection.php(721): CodeIgniter\Database\MySQLi\Connection->execute('CALL Proc_Agreg...')
+#2 C:\xampp\htdocs\gym-backend\system\Database\BaseConnection.php(635): CodeIgniter\Database\BaseConnection->simpleQuery('CALL Proc_Agreg...')
+#3 C:\xampp\htdocs\gym-backend\app\Models\M_TipoContacto.php(17): CodeIgniter\Database\BaseConnection->query('CALL Proc_Agreg...', Array)
+#4 C:\xampp\htdocs\gym-backend\app\Controllers\C_TipoContacto.php(37): App\Models\M_TipoContacto->AgregarTipoContacto(NULL)
+#5 C:\xampp\htdocs\gym-backend\system\CodeIgniter.php(933): App\Controllers\C_TipoContacto->create()
+#6 C:\xampp\htdocs\gym-backend\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_TipoContacto))
+#7 C:\xampp\htdocs\gym-backend\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\gym-backend\system\Boot.php(312): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\gym-backend\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 C:\xampp\htdocs\gym-backend\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 {main}
+CRITICAL - 2024-04-25 00:51:06 --> CodeIgniter\Database\Exceptions\DatabaseException: Column 'descripcion' cannot be null
+[Method: POST, Route: tipocontacto]
+in SYSTEMPATH\Database\BaseConnection.php on line 675.
+ 1 APPPATH\Models\M_TipoContacto.php(17): CodeIgniter\Database\BaseConnection->query('CALL Proc_AgregarTipoContacto(?)', [...])
+ 2 APPPATH\Controllers\C_TipoContacto.php(37): App\Models\M_TipoContacto->AgregarTipoContacto(null)
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\C_TipoContacto->create()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_TipoContacto))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-04-25 00:51:06 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Column 'descripcion' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 313.
+ 1 SYSTEMPATH\Database\BaseConnection.php(721): CodeIgniter\Database\MySQLi\Connection->execute('CALL Proc_AgregarTipoContacto(NULL)')
+ 2 SYSTEMPATH\Database\BaseConnection.php(635): CodeIgniter\Database\BaseConnection->simpleQuery('CALL Proc_AgregarTipoContacto(NULL)')
+ 3 APPPATH\Models\M_TipoContacto.php(17): CodeIgniter\Database\BaseConnection->query('CALL Proc_AgregarTipoContacto(?)', [...])
+ 4 APPPATH\Controllers\C_TipoContacto.php(37): App\Models\M_TipoContacto->AgregarTipoContacto(null)
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\C_TipoContacto->create()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_TipoContacto))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-04-25 00:51:06 --> [Caused by] mysqli_sql_exception: Column 'descripcion' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 308.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(308): mysqli->query('CALL Proc_AgregarTipoContacto(NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(721): CodeIgniter\Database\MySQLi\Connection->execute('CALL Proc_AgregarTipoContacto(NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(635): CodeIgniter\Database\BaseConnection->simpleQuery('CALL Proc_AgregarTipoContacto(NULL)')
+ 4 APPPATH\Models\M_TipoContacto.php(17): CodeIgniter\Database\BaseConnection->query('CALL Proc_AgregarTipoContacto(?)', [...])
+ 5 APPPATH\Controllers\C_TipoContacto.php(37): App\Models\M_TipoContacto->AgregarTipoContacto(null)
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\C_TipoContacto->create()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_TipoContacto))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2024-04-25 00:51:16 --> mysqli_sql_exception: Column 'descripcion' cannot be null in C:\xampp\htdocs\gym-backend\system\Database\MySQLi\Connection.php:308
+Stack trace:
+#0 C:\xampp\htdocs\gym-backend\system\Database\MySQLi\Connection.php(308): mysqli->query('CALL Proc_Agreg...', 0)
+#1 C:\xampp\htdocs\gym-backend\system\Database\BaseConnection.php(721): CodeIgniter\Database\MySQLi\Connection->execute('CALL Proc_Agreg...')
+#2 C:\xampp\htdocs\gym-backend\system\Database\BaseConnection.php(635): CodeIgniter\Database\BaseConnection->simpleQuery('CALL Proc_Agreg...')
+#3 C:\xampp\htdocs\gym-backend\app\Models\M_TipoContacto.php(17): CodeIgniter\Database\BaseConnection->query('CALL Proc_Agreg...', Array)
+#4 C:\xampp\htdocs\gym-backend\app\Controllers\C_TipoContacto.php(37): App\Models\M_TipoContacto->AgregarTipoContacto(NULL)
+#5 C:\xampp\htdocs\gym-backend\system\CodeIgniter.php(933): App\Controllers\C_TipoContacto->create()
+#6 C:\xampp\htdocs\gym-backend\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_TipoContacto))
+#7 C:\xampp\htdocs\gym-backend\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\gym-backend\system\Boot.php(312): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\gym-backend\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 C:\xampp\htdocs\gym-backend\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 {main}
+CRITICAL - 2024-04-25 00:51:16 --> CodeIgniter\Database\Exceptions\DatabaseException: Column 'descripcion' cannot be null
+[Method: POST, Route: tipocontacto]
+in SYSTEMPATH\Database\BaseConnection.php on line 675.
+ 1 APPPATH\Models\M_TipoContacto.php(17): CodeIgniter\Database\BaseConnection->query('CALL Proc_AgregarTipoContacto(?)', [...])
+ 2 APPPATH\Controllers\C_TipoContacto.php(37): App\Models\M_TipoContacto->AgregarTipoContacto(null)
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\C_TipoContacto->create()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_TipoContacto))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-04-25 00:51:16 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Column 'descripcion' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 313.
+ 1 SYSTEMPATH\Database\BaseConnection.php(721): CodeIgniter\Database\MySQLi\Connection->execute('CALL Proc_AgregarTipoContacto(NULL)')
+ 2 SYSTEMPATH\Database\BaseConnection.php(635): CodeIgniter\Database\BaseConnection->simpleQuery('CALL Proc_AgregarTipoContacto(NULL)')
+ 3 APPPATH\Models\M_TipoContacto.php(17): CodeIgniter\Database\BaseConnection->query('CALL Proc_AgregarTipoContacto(?)', [...])
+ 4 APPPATH\Controllers\C_TipoContacto.php(37): App\Models\M_TipoContacto->AgregarTipoContacto(null)
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\C_TipoContacto->create()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_TipoContacto))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-04-25 00:51:16 --> [Caused by] mysqli_sql_exception: Column 'descripcion' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 308.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(308): mysqli->query('CALL Proc_AgregarTipoContacto(NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(721): CodeIgniter\Database\MySQLi\Connection->execute('CALL Proc_AgregarTipoContacto(NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(635): CodeIgniter\Database\BaseConnection->simpleQuery('CALL Proc_AgregarTipoContacto(NULL)')
+ 4 APPPATH\Models\M_TipoContacto.php(17): CodeIgniter\Database\BaseConnection->query('CALL Proc_AgregarTipoContacto(?)', [...])
+ 5 APPPATH\Controllers\C_TipoContacto.php(37): App\Models\M_TipoContacto->AgregarTipoContacto(null)
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\C_TipoContacto->create()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_TipoContacto))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2024-04-25 00:52:22 --> mysqli_sql_exception: Column 'descripcion' cannot be null in C:\xampp\htdocs\gym-backend\system\Database\MySQLi\Connection.php:308
+Stack trace:
+#0 C:\xampp\htdocs\gym-backend\system\Database\MySQLi\Connection.php(308): mysqli->query('CALL appedirn_g...', 0)
+#1 C:\xampp\htdocs\gym-backend\system\Database\BaseConnection.php(721): CodeIgniter\Database\MySQLi\Connection->execute('CALL appedirn_g...')
+#2 C:\xampp\htdocs\gym-backend\system\Database\BaseConnection.php(635): CodeIgniter\Database\BaseConnection->simpleQuery('CALL appedirn_g...')
+#3 C:\xampp\htdocs\gym-backend\app\Models\M_TipoContacto.php(17): CodeIgniter\Database\BaseConnection->query('CALL appedirn_g...', Array)
+#4 C:\xampp\htdocs\gym-backend\app\Controllers\C_TipoContacto.php(37): App\Models\M_TipoContacto->AgregarTipoContacto(NULL)
+#5 C:\xampp\htdocs\gym-backend\system\CodeIgniter.php(933): App\Controllers\C_TipoContacto->create()
+#6 C:\xampp\htdocs\gym-backend\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_TipoContacto))
+#7 C:\xampp\htdocs\gym-backend\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\gym-backend\system\Boot.php(312): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\gym-backend\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 C:\xampp\htdocs\gym-backend\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 {main}
+CRITICAL - 2024-04-25 00:52:22 --> CodeIgniter\Database\Exceptions\DatabaseException: Column 'descripcion' cannot be null
+[Method: POST, Route: tipocontacto]
+in SYSTEMPATH\Database\BaseConnection.php on line 675.
+ 1 APPPATH\Models\M_TipoContacto.php(17): CodeIgniter\Database\BaseConnection->query('CALL appedirn_gimnasio.Proc_AgregarTipoContacto(?)', [...])
+ 2 APPPATH\Controllers\C_TipoContacto.php(37): App\Models\M_TipoContacto->AgregarTipoContacto(null)
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\C_TipoContacto->create()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_TipoContacto))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-04-25 00:52:22 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Column 'descripcion' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 313.
+ 1 SYSTEMPATH\Database\BaseConnection.php(721): CodeIgniter\Database\MySQLi\Connection->execute('CALL appedirn_gimnasio.Proc_AgregarTipoContacto(NULL)')
+ 2 SYSTEMPATH\Database\BaseConnection.php(635): CodeIgniter\Database\BaseConnection->simpleQuery('CALL appedirn_gimnasio.Proc_AgregarTipoContacto(NULL)')
+ 3 APPPATH\Models\M_TipoContacto.php(17): CodeIgniter\Database\BaseConnection->query('CALL appedirn_gimnasio.Proc_AgregarTipoContacto(?)', [...])
+ 4 APPPATH\Controllers\C_TipoContacto.php(37): App\Models\M_TipoContacto->AgregarTipoContacto(null)
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\C_TipoContacto->create()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_TipoContacto))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-04-25 00:52:22 --> [Caused by] mysqli_sql_exception: Column 'descripcion' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 308.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(308): mysqli->query('CALL appedirn_gimnasio.Proc_AgregarTipoContacto(NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(721): CodeIgniter\Database\MySQLi\Connection->execute('CALL appedirn_gimnasio.Proc_AgregarTipoContacto(NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(635): CodeIgniter\Database\BaseConnection->simpleQuery('CALL appedirn_gimnasio.Proc_AgregarTipoContacto(NULL)')
+ 4 APPPATH\Models\M_TipoContacto.php(17): CodeIgniter\Database\BaseConnection->query('CALL appedirn_gimnasio.Proc_AgregarTipoContacto(?)', [...])
+ 5 APPPATH\Controllers\C_TipoContacto.php(37): App\Models\M_TipoContacto->AgregarTipoContacto(null)
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\C_TipoContacto->create()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_TipoContacto))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))

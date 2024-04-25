@@ -1,0 +1,14 @@
+CRITICAL - 2024-04-20 23:04:51 --> ParseError: syntax error, unexpected token "public", expecting end of file
+[Method: GET, Route: usuarios]
+in APPPATH\Models\M_Usuarios.php on line 11.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\gym-backend\\app\\Models\\M_Usuarios.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\M_Usuarios')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\M_Usuarios')
+ 4 SYSTEMPATH\RESTful\BaseResource.php(69): class_exists('App\\Models\\M_Usuarios')
+ 5 SYSTEMPATH\RESTful\BaseResource.php(51): CodeIgniter\RESTful\BaseResource->setModel('App\\Models\\M_Usuarios')
+ 6 SYSTEMPATH\CodeIgniter.php(904): CodeIgniter\RESTful\BaseResource->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 7 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
