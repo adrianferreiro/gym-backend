@@ -1,5 +1,5 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/usuario/public_html/gym
+    - export DEPLOYPATH=/home/appedirn/public_html/gym-backend
     - /bin/cp -R * $DEPLOYPATH
