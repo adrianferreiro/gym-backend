@@ -33,7 +33,8 @@ class C_TipoContacto extends ResourceController
     public function create()
     {
         $model          = new M_TipoContacto();
-        $descripcion    = $this->request->getPost('descripcion');
+        
+        $descripcion    = $this->request->getVar('descripcion');
         $result         = $model->AgregarTipoContacto($descripcion);
 
         if ($result['codigo'] == '1') {
@@ -41,6 +42,8 @@ class C_TipoContacto extends ResourceController
         } else {
             return $this->fail($result['mensaje']);
         }
+
+       
     
     }
 
