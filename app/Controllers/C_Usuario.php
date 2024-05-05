@@ -50,4 +50,4 @@ class C_Usuario extends ResourceController
         }
     
     }
- 
+}
